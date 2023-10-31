@@ -33,3 +33,5 @@ class Solution:
 In this code, we first check if the list is empty or has only one node. If so, we return False as there can't be a cycle. Then we initialize our slow and fast pointers to the head of the list and the second node respectively. We then enter a loop where we move slow one step at a time and fast two steps at a time. If at any point slow and fast meet, we return True indicating a cycle. If fast reaches the end of the list, we return False indicating no cycle.
 
 This technique works because if there is a cycle, the fast pointer will eventually catch up to the slow pointer. If there is no cycle, the fast pointer will reach the end of the list.
+
+![slow-fast-pointers-meme](/assets/slow_fast_pointers_meme.png)
