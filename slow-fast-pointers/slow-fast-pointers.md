@@ -1,2 +1,4 @@
 # Slow&Fast Pointers
 Slow and Fast pointers is a technique used in linked lists to solve a variety of problems. The idea is to have two pointers, one that moves at a slow pace (usually one step at a time) and another that moves at a fast pace (usually two steps at a time). This technique is particularly useful in identifying cycles in a linked list, finding the middle element, and so on.
+
+![slow-fast-pointer-gif](/assets/slow-fast-pointers-gif.gif)
